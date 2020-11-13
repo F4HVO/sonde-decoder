@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="beacon.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="297.74723"
+     inkscape:cy="786.76263"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4832"
+       transform="matrix(0.26458333,0,0,0.26458333,-178.02678,-249.55357)">
+	<polygon
+   style="fill:#f4e8c3"
+   class="st6"
+   points="1121.6,1132.3026 1164.8117,1423.9812 993.16534,1423.9812 1036.377,1132.3026 "
+   id="polygon4796" />
+
+	<polygon
+   style="fill:#f7eed7"
+   class="st27"
+   points="993.16534,1423.9812 1034.5765,1423.9812 1056.9379,1132.3026 1036.377,1132.3026 "
+   id="polygon4798" />
+
+	<polygon
+   style="fill:#dcd0ae"
+   class="st8"
+   points="1101.0392,1132.3026 1123.4005,1423.9812 1164.8117,1423.9812 1121.6,1132.3026 "
+   id="polygon4800" />
+
+	<path
+   style="fill:#b5a57d"
+   inkscape:connector-curvature="0"
+   class="st28"
+   d="m 1078.9885,1368.5629 v 0 c 6.7408,0 12.2051,5.4643 12.2051,12.2051 v 32.0644 h -24.4103 v -32.0644 c 0,-6.7408 5.4645,-12.2051 12.2052,-12.2051 z"
+   id="path4802" />
+
+	<path
+   style="fill:#a3c13a"
+   inkscape:connector-curvature="0"
+   class="st29"
+   d="M 1175.8893,1452.3888 H 982.08771 c -11.58643,0 -20.979,-9.3926 -20.979,-20.979 v 0 c 0,-11.5864 9.39258,-20.979 20.979,-20.979 h 193.80159 c 11.5864,0 20.979,9.3926 20.979,20.979 v 0 c 0,11.5864 -9.3926,20.979 -20.979,20.979 z"
+   id="path4804" />
+
+	<path
+   style="fill:#e04b4b"
+   inkscape:connector-curvature="0"
+   class="st5"
+   d="m 1129.3649,1184.7164 8.6246,58.2157 h -118.0021 l 8.6247,-58.2157 z m 25.2217,170.2461 -8.6244,-58.2157 h -133.9474 l -8.6244,58.2157 z"
+   id="path4806" />
+
+	<g
+   id="g4812">
+		<polygon
+   style="fill:#e56e6e"
+   class="st30"
+   points="1028.6121,1184.7164 1019.9874,1242.9321 1048.4564,1242.9321 1052.9196,1184.7164 "
+   id="polygon4808" />
+
+		<polygon
+   style="fill:#e56e6e"
+   class="st30"
+   points="1044.3309,1296.7468 1012.0148,1296.7468 1005.8546,1338.3295 1003.3904,1354.9625 1039.8678,1354.9625 "
+   id="polygon4810" />
+
+	</g>
+
+	<g
+   id="g4818">
+		<polygon
+   style="fill:#bc3635"
+   class="st31"
+   points="1113.6461,1296.7468 1118.1091,1354.9625 1154.5865,1354.9625 1152.1223,1338.3295 1145.9622,1296.7468 "
+   id="polygon4814" />
+
+		<polygon
+   style="fill:#bc3635"
+   class="st31"
+   points="1109.5205,1242.9321 1137.9895,1242.9321 1129.3649,1184.7164 1105.0574,1184.7164 "
+   id="polygon4816" />
+
+	</g>
+
+	<path
+   style="fill:#8fa83c"
+   inkscape:connector-curvature="0"
+   class="st32"
+   d="m 982.08777,1452.3888 h 193.80143 c 11.5864,0 20.9791,-9.3927 20.9791,-20.9791 H 961.1087 c 0,11.5864 9.3927,20.9791 20.97907,20.9791 z"
+   id="path4820" />
+
+	<rect
+   style="fill:#e04b4b"
+   x="1038.5776"
+   y="1053.4813"
+   class="st5"
+   width="80.821777"
+   height="73.819893"
+   id="rect4822" />
+
+	<rect
+   style="fill:#f4e8c3"
+   x="1052.8815"
+   y="1070.1858"
+   class="st6"
+   width="52.214069"
+   height="40.410889"
+   id="rect4824" />
+
+	<path
+   style="fill:#bc3635"
+   inkscape:connector-curvature="0"
+   class="st31"
+   d="m 1132.9254,1058.2826 h -107.8738 v -16.4044 c 35.9581,-19.2052 71.9159,-19.2052 107.8738,0 z"
+   id="path4826" />
+
+	<rect
+   style="fill:#bc3635"
+   x="1027.7747"
+   y="1123.9003"
+   class="st31"
+   width="102.4276"
+   height="11.60313"
+   id="rect4828" />
+
+	<polygon
+   style="fill:#bc3635"
+   class="st31"
+   points="1030.9756,1102.6945 1047.6201,1102.6945 1047.6201,1128.9015 1050.821,1128.9015 1050.821,1102.6945 1067.4652,1102.6945 1067.4652,1128.9015 1070.6663,1128.9015 1070.6663,1102.6945 1087.3108,1102.6945 1087.3108,1128.9015 1090.5117,1128.9015 1090.5117,1102.6945 1107.1559,1102.6945 1107.1559,1128.9015 1110.3569,1128.9015 1110.3569,1102.6945 1127.0015,1102.6945 1127.0015,1128.9015 1130.2024,1128.9015 1130.2024,1102.6945 1130.2024,1099.2937 1130.2024,1098.2932 1027.7745,1098.2932 1027.7745,1099.2937 1027.7745,1102.6945 1027.7745,1128.9015 1030.9756,1128.9015 "
+   id="polygon4830" />
+
+</g>
+  </g>
+  <style
+     id="style4518"
+     type="text/css">
+	.st0{fill:#CEB87A;}
+	.st1{fill:#E8E19A;}
+	.st2{fill:#61859E;}
+	.st3{fill:#9BBDCC;}
+	.st4{fill:#A37866;}
+	.st5{fill:#E04B4B;}
+	.st6{fill:#F4E8C3;}
+	.st7{fill:#C12728;}
+	.st8{fill:#DCD0AE;}
+	.st9{fill:#8F9689;}
+	.st10{fill:#787F71;}
+	.st11{fill:#ACB2A6;}
+	.st12{fill:#975A2C;}
+	.st13{fill:#774420;}
+	.st14{fill:#B77748;}
+	.st15{fill:#C68543;}
+	.st16{fill:#EEEBE6;}
+	.st17{fill:#D9D2C7;}
+	.st18{fill:#883E2A;}
+	.st19{fill:#A05237;}
+	.st20{fill:#BC6542;}
+	.st21{fill:#D09583;}
+	.st22{fill:#4C3A2D;}
+	.st23{fill:#9D928A;}
+	.st24{fill:#BDB291;}
+	.st25{fill:#D8CCAB;}
+	.st26{fill:#F9F2DF;}
+	.st27{fill:#F7EED7;}
+	.st28{fill:#B5A57D;}
+	.st29{fill:#A3C13A;}
+	.st30{fill:#E56E6E;}
+	.st31{fill:#BC3635;}
+	.st32{fill:#8FA83C;}
+	.st33{fill:#DCE5EA;}
+	.st34{fill:#C6D6DB;}
+	.st35{fill:#8BACB2;}
+	.st36{fill:#43515B;}
+	.st37{fill:#D2937E;}
+</style>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="resources/scale_end.png">resources/scale_end.png</file>
+        <file alias="resources/scale.png">resources/scale.png</file>
+        <file alias="resources/marker.png">resources/marker.png</file>
+        <file alias="resources/icon.png">resources/icon.png</file>
+        <file alias="resources/beacon.ico">resources/beacon.ico</file>
+    </qresource>
+</RCC>
