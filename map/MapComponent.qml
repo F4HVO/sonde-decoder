@@ -83,6 +83,29 @@ Map {
     signal showPointMenu(variant coordinate)
     signal showRouteList()
 
+    MapCircle {
+        id:bigcircle
+        center {
+            latitude: 43.604652
+            longitude: 1.444209
+        }
+        radius: 15000.0
+        color: "#ff0059"
+        opacity:0.25
+        border.width: 3
+    }
+
+    MapCircle {
+        id:smallcircle
+        center {
+            latitude: 43.604652
+            longitude: 1.444209
+        }
+        radius: 5000.0
+        opacity:0.25
+        border.width: 3
+    }
+
     function geocodeMessage()
     {
         var street, district, city, county, state, countryCode, country, postalCode, latitude, longitude, text
@@ -186,6 +209,8 @@ Map {
         map.addMapItem(marker)
         marker.z = map.z+1
         marker.coordinate = QtPositioning.coordinate(latitude, longitude)
+        bigcircle.center = marker.coordinate
+        smallcircle.center = marker.coordinate
 
         //update list of markers
         var myArray = new Array()
