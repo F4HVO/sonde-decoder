@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   M10Gtop.h
  * Author: Viproz
  * Used code from rs1729
@@ -31,18 +31,18 @@ public:
     virtual double getVerticalSpeed();
     virtual double getHorizontalSpeed();
     virtual double getDirection();
-    virtual double getTemperature();
+    virtual std::string getTemperature() { return "" ; }
     virtual double getHumidity();
     virtual double getDp();
     virtual std::string getSerialNumber();
-    virtual std::string getCallSign();
-    
+
     void printFrame();
 private:
-    int getNumberOfDays(int month, int year);
+    QDate getDate() ;
+
     int time;
     int date;
-    
+
 };
 
 #endif /* M10GTOP_H */

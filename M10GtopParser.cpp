@@ -165,10 +165,6 @@ double M10GtopParser::getDirection() {
     return dir;
 }
 
-double M10GtopParser::getTemperature() {
-    return 0;
-}
-
 double M10GtopParser::getHumidity() {
     return 0;
 }
@@ -208,26 +204,6 @@ std::string M10GtopParser::getSerialNumber() {
     sprintf(SN + 9, "-%1X-%1u%04u", sn_bytes[0]&0xF, (byte >> 13)&0x7, byte & 0x1FFF);
 
     return SN;
-}
-
-std::string M10GtopParser::getCallSign() {
-
-   std::string callSign ;
-   int i = 0 ;
-   unsigned char * currentCharacter = frame_bytes.data() + 0x5D ;
-   while (*currentCharacter >= 32 && *currentCharacter <= 126 )
-   {
-      callSign.push_back( static_cast< char >( *currentCharacter ) ) ;
-      ++currentCharacter ;
-
-      // Do not read after end of array
-      if ( currentCharacter == frame_bytes.end() )
-      {
-         break ;
-      }
-   }
-
-   return callSign ;
 }
 
 void M10GtopParser::printFrame() {
@@ -280,11 +256,11 @@ void M10GtopParser::printFrame() {
            "\"vel_h\": %.5f, "
            "\"heading\": %.5f, "
            "\"vel_v\": %.2f, "
-           //"\"temp\": %.1f "
+           "\"temp\": \"0x%s\","
            "\"crc\": %d "
            "}",
            "Gtop", frame, getSerialNumber().c_str(), getCallSign().c_str(), getYear(), getMonth(), getDay(), getHours(), getMinutes(), getSeconds(), getLatitude(), getLongitude(),
-           getAltitude(), getHorizontalSpeed(), getDirection(), getVerticalSpeed()/*, getTemperature()*/, correctCRC);
+           getAltitude(), getHorizontalSpeed(), getDirection(), getVerticalSpeed(), getTemperature().c_str(), correctCRC);
    emit sigFrame( message ) ;
    emit sigFrame( QString( "<a href=\"https://www.google.fr/maps?q=%1,%2\">%1,%2</a>" ).arg( getLatitude() ).arg( getLongitude() ) ) ;
 }

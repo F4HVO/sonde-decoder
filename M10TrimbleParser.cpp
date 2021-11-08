@@ -48,6 +48,9 @@ void M10TrimbleParser::changeData(std::array<unsigned char, DATA_LENGTH> data, b
 
     week = (gpsweek_bytes[0] << 8) + gpsweek_bytes[1];
 
+    // Trimble Copernicus II WNRO  (AirPrime XM1110 OK)
+    if (week < 1304 /*2005-01-02*/ ) week += 1024;
+
     //Time in ms
     unsigned short gpstime_bytes[4];
 
@@ -415,6 +418,7 @@ std::array<unsigned char, DATA_LENGTH> M10TrimbleParser::replaceWithPrevious(std
     return data;
 }
 
+
 void M10TrimbleParser::printFrame() {
    if ( dispRaw )
    {
@@ -461,6 +465,7 @@ void M10TrimbleParser::printFrame() {
                            "\"sub_type\": \"%s\", "
                            "\"frame\": %ld, "
                            "\"id\": \"%s\", "
+                           "\"callsign\": \"%s\", "
                            "\"dxlid\": \"%s\", "
                            "\"datetime\": \"%04d-%02d-%02dT%02d:%02d:%02dZ\", "
                            "%s" // Aux data
@@ -475,7 +480,7 @@ void M10TrimbleParser::printFrame() {
             "\"battery\": %.2f, "
             "\"crc\": %d "
             "}",
-            "Trimble", frame, getSerialNumber().c_str(), getdxlSerialNumber().c_str(), getYear(), getMonth(), getDay(), getHours(), getMinutes(), getSeconds(),
+            "Trimble", frame, getSerialNumber().c_str(), getCallSign().c_str(), getdxlSerialNumber().c_str(), getYear(), getMonth(), getDay(), getHours(), getMinutes(), getSeconds(),
             auxstr.c_str(), getSatellites(), getLatitude(), getLongitude(),
             getAltitude(), getHorizontalSpeed(), getDirection(), getVerticalSpeed(), getTemperature(), getBatteryLevel(), correctCRC);
         emit sigFrame( message ) ;

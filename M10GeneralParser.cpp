@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   M10GeneralParser.cpp
  * Author: Viproz
  * Used code from rs1729
@@ -75,6 +75,27 @@ std::string M10GeneralParser::getSerialNumber() {
     return "";
 }
 
+std::string M10GeneralParser::getCallSign() {
+
+   std::string callSign ;
+   int i = 0 ;
+   unsigned char * currentCharacter = frame_bytes.data() + 0x5D ;
+   while (*currentCharacter >= 32 && *currentCharacter <= 126 )
+   {
+      callSign.push_back( static_cast< char >( *currentCharacter ) ) ;
+      ++currentCharacter ;
+
+      // Do not read after end of array
+      if ( currentCharacter == frame_bytes.end() )
+      {
+         break ;
+      }
+   }
+
+   return callSign ;
+}
+
+
 std::array<unsigned char, DATA_LENGTH> M10GeneralParser::replaceWithPrevious(std::array<unsigned char, DATA_LENGTH> data) {
     return data;
 }
@@ -100,9 +121,9 @@ void M10GeneralParser::printStatsFrame() {
         }
         frame_bytes[i] = posMax;
     }
-    
+
     changeData(frame_bytes, false);
-    
+
     printf("Stats frame:\n");
     printFrame();
 }

@@ -37,6 +37,7 @@ public:
     virtual double getHorizontalSpeed();
     virtual double getDirection();
     virtual std::string getSerialNumber();
+    virtual std::string getCallSign();
     std::array<unsigned char, DATA_LENGTH> getFrameBytes() {return frame_bytes;}
 
     virtual std::array<unsigned char, DATA_LENGTH> replaceWithPrevious(std::array<unsigned char, DATA_LENGTH> data);
